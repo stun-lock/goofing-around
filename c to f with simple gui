@@ -1,0 +1,34 @@
+from tkinter import *
+from tkinter import ttk
+
+def calculate (*args):
+    try:
+        c = float(celsius.get())
+        farenheit = (c * 9/5) + 32
+        far.set(farenheit)
+    except ValueError:
+        pass
+
+root = Tk()
+root.title("Martorillas")
+root.configure(bg="pink")
+
+mainframe = ttk.Frame(root, padding=(40,40,40,40)) 
+mainframe.grid(column = 0, row = 0, sticky = (N,W,E,S))
+
+celsius = StringVar()
+celsius_entry = ttk.Entry(mainframe, width = 7, textvariable = celsius)
+celsius_entry.grid(column=1, row=2, sticky = (W,E))
+
+far = StringVar()
+far_label = ttk.Label(mainframe, textvariable=far)
+far_label.grid(column = 3, row = 2, sticky = (W,E))
+
+calc_button = ttk.Button(mainframe, text="Calculate", command=calculate)
+calc_button.grid(column=2, row=3, sticky=(N,E))
+
+ttk.Label(mainframe, text="Celcius:").grid(column=1, row=1, sticky=(N,W))
+ttk.Label(mainframe, text="=>").grid(column=2, row=1, sticky=(N,S))
+ttk.Label(mainframe, text="Farenheit:").grid(column=3, row=1, sticky=(N,E))
+
+root.mainloop()
