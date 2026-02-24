@@ -1,0 +1,44 @@
+import ctypes
+import time
+import os
+
+
+
+LIB_PATH = "./libsimd.so"
+
+
+lib = ctypes.CDLL(LIB_PATH)
+
+# --------------------------------------------------
+# 2. Define C function signature
+# long simd_sum(const long *arr, size_t n)
+# --------------------------------------------------
+
+lib.simd_sum.argtypes = (
+    ctypes.POINTER(ctypes.c_long),
+    ctypes.c_size_t
+)
+lib.simd_sum.restype = ctypes.c_long
+
+# --------------------------------------------------
+# 3. Create contiguous memory (C array)
+# --------------------------------------------------
+
+N = 5_000_000
+
+ArrayType = ctypes.c_long * N
+c_array = ArrayType() # allocates the contiguous memory.
+
+for i in range(N):
+    c_array[i] = i
+
+# --------------------------------------------------
+# 4. Call SIMD backend (FAST)
+# --------------------------------------------------
+
+start = time.perf_counter()
+result = lib.simd_sum(c_array, N)
+end = time.perf_counter()
+
+print("C SIMD result:", result)
+print("C SIMD time:", end - start)
