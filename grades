@@ -1,0 +1,15 @@
+import numpy as np
+scores = [85, 90, 78, 92, 88]
+arr = np.array(scores)
+print('Mean :', arr.mean()) 
+print('Min :', arr.min())
+print('Max :', arr.max()) 
+print('Sorted:', np.sort(arr))
+
+import numpy as np
+attendance = [1, 0, 1, 1, 0, 1, 1]
+arr = np.array(attendance)
+present = np.sum(arr == 1)
+absent = np.sum(arr == 0)
+print(f'Present : {present} days')
+print(f'Absent : {absent} days')
