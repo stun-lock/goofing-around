@@ -1,0 +1,26 @@
+import numpy as mark
+
+grades = []
+subjects = ["Earth Science", "General Mathematics", "Physics", "Calculus", "Filipino"]
+
+for x in subjects:
+    try:
+        for x in subjects:
+           grade = int(input(f"Enter your grade in {x}: "))
+           if grade > 100:
+               print("Grades cannot go beyond 100.")
+               break
+           grades.append(grade)
+        if x == "Filipino":
+            break
+           
+    except ValueError:
+        print("That's not a valid number!")
+                
+array = mark.array(grades)
+    
+print("General Average:",array.mean())
+print("Lowest Grade:",array.min())
+print("Maximum Grade:",array.max())
+print("Sorted Grade:",mark.sort(array))
+
