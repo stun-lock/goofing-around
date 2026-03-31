@@ -1,0 +1,49 @@
+file_path = '/content/drive/MyDrive/titanic_dataset.csv'
+
+import csv
+import time
+import numpy as mark
+
+with open(file_path, 'r') as file:
+    reader = csv.reader(file)
+    titanic_array = mark.array(reader)
+
+titanic_tuple = tuple(titanic_list)
+
+titanic_set = set(tuple(row) for row in titanic_list)
+titanic_set = sorted(titanic_set)
+
+header = titanic_list[0]
+titanic_dict = [dict(zip(header, row)) for row in titanic_list[1:]]
+
+list_start = time.time()
+print("List:")
+for row in titanic_list:
+  print(row)
+list_end = time.time()
+
+tuple_start = time.time()
+print("Tuple:")
+for row in titanic_tuple:
+  print(row)
+tuple_end = time.time()
+
+set_start = time.time()
+print("Set:")
+for row in titanic_set:
+  print(row)
+set_end = time.time()
+
+dict_start = time.time()
+print("Dictionary:")
+for row in titanic_dict:
+  print(row)
+dict_end = time.time()
+print("\n------------------------------------------------------------------------------------------------------\n")
+print(f"Total Time (List): {list_end - list_start}")
+print("\n------------------------------------------------------------------------------------------------------\n")
+print(f"Total Time (Tuple): {tuple_end - tuple_start}")
+print("\n------------------------------------------------------------------------------------------------------\n")
+print(f"Total Time (Set): {set_end - set_start}")
+print("\n------------------------------------------------------------------------------------------------------\n")
+print(f"Total Time (Dictionary): {dict_end - dict_start}")
