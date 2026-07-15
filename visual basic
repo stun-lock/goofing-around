@@ -1,0 +1,49 @@
+Imports things_in_my_classroom
+
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim aircon As New objAircon
+
+        aircon.Material = "Plastic"
+        aircon.Color = "White"
+        aircon.Shape = "Rectangle"
+
+        TextBox3.Text = aircon.Material
+        TextBox2.Text = aircon.Color
+        TextBox1.Text = aircon.Shape
+
+    End Sub
+End Class
+---------------------------------------------------
+Public Class objAircon
+    Private _material As String
+    Private _color As String
+    Private _shape As String
+
+    Public Property Material As String
+        Get
+            Return _material
+        End Get
+        Set(value As String)
+            _material = value
+        End Set
+    End Property
+
+    Public Property Color As String
+        Get
+            Return _color
+        End Get
+        Set(value As String)
+            _color = value
+        End Set
+    End Property
+
+    Public Property Shape As String
+        Get
+            Return _shape
+        End Get
+        Set(value As String)
+            _shape = value
+        End Set
+    End Property
+End Class
