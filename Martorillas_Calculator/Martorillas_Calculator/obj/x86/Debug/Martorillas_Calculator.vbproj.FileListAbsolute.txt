@@ -1,0 +1,18 @@
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\bin\Debug\martorillasCalculator.exe
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\bin\Debug\martorillasCalculator.pdb
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\bin\Debug\martorillasCalculator.xml
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\martorillasCalculator.Form1.resources
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\martorillasCalculator.Resources.resources
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\Martorillas_Calculator.vbproj.GenerateResource.Cache
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\martorillasCalculator.exe
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\martorillasCalculator.xml
+C:\Users\Student\AppData\Local\Temporary Projects\martorillasCalculator\obj\x86\Debug\martorillasCalculator.pdb
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\bin\Debug\Martorillas_Calculator.exe
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\bin\Debug\Martorillas_Calculator.pdb
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\bin\Debug\Martorillas_Calculator.xml
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\martorillasCalculator.Form1.resources
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\martorillasCalculator.Resources.resources
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\Martorillas_Calculator.vbproj.GenerateResource.Cache
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\Martorillas_Calculator.exe
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\Martorillas_Calculator.xml
+C:\Users\Student\Downloads\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Debug\Martorillas_Calculator.pdb

@@ -1,0 +1,9 @@
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\bin\Release\Martorillas_Calculator.exe
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\bin\Release\Martorillas_Calculator.pdb
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\bin\Release\Martorillas_Calculator.xml
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\martorillasCalculator.Form1.resources
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\martorillasCalculator.Resources.resources
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\Martorillas_Calculator.vbproj.GenerateResource.Cache
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\Martorillas_Calculator.exe
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\Martorillas_Calculator.xml
+C:\Users\Student\documents\visual studio 2010\Projects\Martorillas_Calculator\Martorillas_Calculator\obj\x86\Release\Martorillas_Calculator.pdb
